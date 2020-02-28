@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CSharp_Image_Manipulator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1280">
+        Title="Simple Image Filters" Height="720" Width="960">
     <Grid>
 
-        <TextBlock FontSize="24" HorizontalAlignment="Left" Margin="1014,611,0,0" TextWrapping="Wrap"
-                   VerticalAlignment="Top" Height="68" Width="248">
-            <Run Text="C# Image Manipulator" /><LineBreak /><Run Text="by Petar Staynov" />
+        <TextBlock FontSize="24" HorizontalAlignment="Left" Margin="765,524,0,0" TextWrapping="Wrap"
+                   VerticalAlignment="Top" Height="28" Width="187">
+            <Run Text="© Petar Staynov" />
         </TextBlock>
-        <Image Name="ImageDisplay" Height="596" Margin="10,83,842,0" VerticalAlignment="Top" />
+        <Image Name="ImageDisplay" Height="596" Margin="10,83,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="728" />
         <Button Content="Browse" Name="BrowseButton" Click="BrowseButton_OnClick" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="128" Height="48"/>
         <Label Content="File:" Name="FilenameLabel" FontSize="24" HorizontalAlignment="Left" Margin="157,16,0,0" VerticalAlignment="Top" Width="1105"/>
 
